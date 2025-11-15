@@ -1,5 +1,6 @@
-#This program is to find the coordinate of given points in a transformed matrix whose transformations are dicided by the user and also the number of transformations will be decided by the user
-#Transformations just follow a simple rule, they have to be linear and also origin is fundamental for all
+#This program is to find the coordinate of given point/s in a transformed matrix whose transformations are dicided by the user and also the number of transformations will be decided by the user
+#Transformations follow a simple rule, they have to be linear and also origin is fundamental for all
+'''NOTE: THE N- NUMBER OF TRANSFORMATIONS FEATURE IS CURRENTLY BEING WORKED ON, SOOO......DEAL WITH IT'''
 def dimensions():
   while 1:
     try:
@@ -66,3 +67,4 @@ def transformer(axes,number):
     else:
       pass
 dimensions()
+
